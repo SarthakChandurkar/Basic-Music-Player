@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="midContainer">
+            <div class="songList">
+                <h1>Songs In your List</h1>
+                <div class="songs">
+                    <div class="songItem">
+                        <div class="coverAndName">
+                            <img id="0" class="imgOfSongItem" alt="">
+                            <i class="fas above-img fa-play 0"></i>
+                            <span class="songName"></span>
+                        </div>
+                        <span class="timeStamp"></span>
+                    </div>
+                    <div class="songItem">
+                        <div class="coverAndName">
+                            <img id="1" class="imgOfSongItem" alt="">
+                            <i class="fas above-img fa-play 1"></i>
+                            <span class="songName"></span>
+                        </div>
+                        <span class="timeStamp"></span>
+                    </div>
+                    <div class="songItem">
+                        <div class="coverAndName">
+                            <img id="2" class="imgOfSongItem" alt="">
+                            <i class="fas above-img fa-play 2"></i>
+                            <span class="songName"></span>
+                        </div>
+                        <span class="timeStamp"></span>
+                    </div>
+                    <div class="songItem">
+                        <div class="coverAndName">
+                            <img id="3" class="imgOfSongItem" alt="">
+                            <i class="fas above-img fa-play 3"></i>
+                            
+                            <span class="songName"></span>
+                        </div>
+                        <span class="timeStamp"></span>
+                    </div>
+                    <div class="songItem">
+                        <div class="coverAndName">
+                            <img id="4" class="imgOfSongItem" alt="">
+                            <i class="fas above-img fa-play 4"></i>
+                            <span class="songName"></span>
+                        </div>
+                        <span class="timeStamp"></span>
+                    </div>
+                    <div class="songItem">
+                        <div class="coverAndName">
+                            <img id="5" class="imgOfSongItem" alt="">
+                            <i class="fas above-img fa-play 5"></i>
+                            <span class="songName"></span>
+                        </div>
+                        <span class="timeStamp"></span>
+                    </div>
+                    <div class="songItem">
+                        <div class="coverAndName">
+                            <img id="6" class="imgOfSongItem" alt="">
+                            <i class="fas above-img fa-play 6"></i>
+                            <span class="songName"></span>
+                        </div>
+                        <span class="timeStamp"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="songCover">
+                <img id="songCoverImg" alt="">
+                <h2 id="songCoverName"></h2>
+                <div class="icons underCover">
+                    <i id="like" class="far fa-heart"> Like</i>
+                    <i class="fas fa-info-circle"> Info</i>
+                    <i class="fas fa-music"> Lyrics</i>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="icons">
+            <i class="fas fa-step-backward"></i>
+            <i id="mainPlayButton" class="fas fa-2x fa-play-circle"></i>
+            <i class="fas fa-step-forward"></i>
+        </div>
+        <input type="range" min="0" max="100" id="myprogressBar">
+
+    </div>
+    <script src="https://kit.fontawesome.com/d08299b330.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
